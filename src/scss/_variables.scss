@@ -1,0 +1,55 @@
+/*Base options*/
+
+$base-font: 16px;
+$body-color: #fff;
+$text-color: #909090;
+
+/*Btn options*/
+
+$btn-font-size: 1.375em;
+$btn-bg-color: #5094f2;
+$btn-color: #fff;
+
+/*Header options*/
+
+$header-bg-color: #fff;
+$logo-color: #000;
+$menu-link-color: #6c6c6c;
+$menu-link-hover-color: #000;
+$menu-link-border: 3px solid #5094f2;
+$menu-link-fs: 1.25em;
+$logo-fs: 2.625em;
+
+
+/*Slider options*/
+
+$slider-title-color: #fff;
+$slider-title-fs: 2.625em;
+$slider-text-color: #fff;
+$slider-text-fs: 1.625em;
+$slider-link-color: #fff;
+
+/*Features options*/
+
+$feature-title-color: #5094f2;
+$feature-title-fs: 1.25em;
+$feature-text-color: $text-color;
+$feature-text-fs: $base-font;
+
+
+/*Shopping-cart options*/
+
+$shopping-cart-title-fs: 2.625em;
+$shopping-cart-title-color: #6f7173;
+
+/*Shopping-item options*/
+
+$shopping-item-title-color: $shopping-cart-title-color;
+$shopping-item-title-fs: 1.625em;
+$shopping-item-text-color: $text-color;
+$shopping-item-text-fs: 1.25em;
+
+/*Footer options*/
+
+$footer-text-color: $text-color;
+$footer-text-fs: $base-font;

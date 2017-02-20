@@ -1,0 +1,59 @@
+.shopping-cart {
+	padding: 30px 60px 60px;
+
+	&__title {
+		font-size: $shopping-cart-title-fs;
+		color: $shopping-cart-title-color;
+		font-family: "SegoeUIRegular", sans-serif;
+		font-weight: normal;
+		line-height: 1.04em;
+
+		@media screen and(max-width: 768px) {
+			text-align: center;
+		}
+	} 
+}
+
+.shopping-item {
+	margin-top: 15px;
+	padding-right: 130px;
+
+	@media screen and(max-width: 768px) {
+		padding-right: 0;
+		text-align: center;
+	}
+
+	&__photo {
+		float: left;
+		margin-right: 80px;
+		margin-top: 15px;
+
+		@media screen and(max-width: 768px) {
+			float: none;
+			width: 210px;
+			margin: 0;
+		}
+	}
+
+	&__title {
+		color: $shopping-item-title-color;
+		font-size: $shopping-item-title-fs;
+		line-height: 1.7em;
+		font-family: "SegoeUIRegular", sans-serif;
+		font-weight: normal;
+
+		@media screen and(max-width: 768px) {
+			text-align: left;
+		}
+	}
+
+	&__description {
+		margin-top: $shopping-item-text-fs;
+		color: $shopping-item-text-color;
+		line-height: 2em;
+
+		@media screen and(max-width: 768px) {
+			text-align: left;
+		}
+	}
+}
